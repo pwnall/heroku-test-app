@@ -1,0 +1,28 @@
+{
+  "name": "heroku-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Test Heroku application",
+  "keywords": ["heroku", "test"],
+  "homepage": "https://github.com/pwnall/heroku-test-app",
+  "author": "Victor Costan <victor@costan.us> (http://www.costan.us)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwnall/heroku-test-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwnall/heroku-test-app/issues"
+  },
+  "dependencies": {
+    "express": "^ 4.14.0",
+    "pg": "^ 6.1.2"
+  },
+  "devDependencies": {
+  },
+  "main": "index.js",
+  "scripts": {
+    "minimal": "node minimal.js",
+    "start": "node index.js"
+  }
+}
